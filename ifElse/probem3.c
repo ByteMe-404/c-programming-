@@ -1,18 +1,17 @@
 /*
-
-2. Write a C program to check whether a given number is even or odd.
+3. Write a C program to check whether a given number is positive or negative.
 Test Data : 15
 Expected Output :
-15 is an odd integer
-
+15 is a positive number
 */
+
 /*
-
-
 Author    : Rian
 Created on: 2025-01-15    
-      time: 18:09:35
+      time: 18:12:44
 :)
+
+
 
 █████╗
 ██╔══██ 
@@ -28,7 +27,7 @@ Created on: 2025-01-15
 int main(){
     int n;
     scanf("%d",&n);
-    (n%2==0) ? printf("even") : printf("odd");
+    (n<0) ? printf("negative") : printf("positive");
 
     return 0;
 }
