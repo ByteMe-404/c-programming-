@@ -1,2 +1,4 @@
-
-// 3 4  3 4
+   total+=arr[i];
+        globmax = max(globmax,currmax)  ;
+        globmin = min(globmin,currmin)  ;
+    }
