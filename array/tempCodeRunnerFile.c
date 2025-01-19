@@ -1,4 +1,1 @@
-   total+=arr[i];
-        globmax = max(globmax,currmax)  ;
-        globmin = min(globmin,currmin)  ;
-    }
+arr[i]+arr[j]+arr[k]+arr[l]
